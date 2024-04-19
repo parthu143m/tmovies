@@ -1,0 +1,183 @@
+body{
+    background-color: #b8b8b8;
+}
+.logo{
+    height: 130px;
+    width: 150px;
+    padding-top: 20px;
+    border-radius: 50%;
+}
+.t{
+    margin-top: 15px;
+    padding-left: 20%;
+    font-size: 80px;
+    font-family: 'Carter One', cursive;
+    background-image: linear-gradient(to right, rgb(31,91,212),rgb(129,52,175),rgb(221,42,123),rgb(254,218,119),rgb(245,133,41));
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent; 
+    
+    
+}
+.t1{
+    margin-top: 0px;
+    padding-left: 220px;
+    font-size: 16px;
+    color: white;
+}
+.container-fluid1{
+    height: 150px;
+    border-bottom: 2PX SOLID rgb(36, 114, 43);
+    background-color: rgb(33, 30, 30);
+    box-shadow: 0 .2rem 1rem rgb(19, 19, 19);
+    width: 100%;
+    position:fixed;
+    z-index: 1000;
+}
+.headder .navbarmain {
+    display: grid;
+  grid-template-columns: repeat(4, auto);
+  gap: 10px;
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  z-index: 1000;
+
+
+
+}
+.p:hover{
+    color: black;
+
+}
+.p{
+    color: white;
+
+}
+
+.headder .navbarmain :hover{
+    background-color: white;
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+
+    
+    
+  
+}
+
+
+.card-img-top:hover{
+    height: 350px;
+    width: 300px;
+    transform: scale(1.2);
+    z-index: 1;
+    
+    
+}
+.card-img-top{
+    height: 300px;
+    width: 255px;
+    padding-right: 25px;
+    transition: 1s;
+
+   
+
+   
+    
+}
+.card{
+    border: solid hsl(271, 76%, 53%) 2px;
+    height: 480px;
+    color: green;
+}
+.orderbtn{
+    background-color: hsl(271, 76%, 53%);
+    color: white;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+.see{
+    text-align: center;
+    border: 1px solid black;
+    color: white;
+    width: 210px;
+    text-align: center;
+    margin-left: 680px;
+    padding: 10px 20px;
+    background-color: hsl(125, 77%, 28%);
+    clip-path: polygon(100% 0,95% 50%,100% 99%,0% 100%,7% 50%,0% 0%);
+
+
+}
+.box{
+    border-bottom: 3px solid rgb(170, 11, 154);
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    color: black;
+    
+    
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #b8b8b8;;
+    min-width: 30px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    color: black;
+    
+    
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+    
+}
+
+.headder .navbar .p{
+    display: none;
+}
+
+
+.dropdown-content{
+    border-bottom: 1px solid rgb(37, 39, 41);
+    padding-bottom: 6px;
+    width: 150px;
+    color: black;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    
+   
+}
+.click{
+    color:white;
+    
+}
+
+.dropdown2{
+    color:black;
+    text-decoration: none;
+    
+}
+.more{
+    margin-left: 90%;
+    padding: 10px 15px;
+    border-radius: 30px;
+    background-color: hsl(271, 76%, 53%);
+    font-size: 13px;
+    color: white;
+    border: 1px solid black;
+}
+.card1{
+    border: solid hsl(271, 76%, 53%) 2px;
+    height: 450px;
+    color: green;
+    background-color: white;
+}
